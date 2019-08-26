@@ -1,2 +1,5 @@
 # CIM111
-Jillian's repo for CIM 111 Fall 2019
+
+Jillian Hobaica
+
+jdh170@miami.edu
