@@ -25,9 +25,31 @@ img {
   width: 200;
 }
 
-p {
+p.center{
   font-size: 150%;
   color: #ccff00;
+  text-align: center;
+}
+
+section#address, #address{
+  text-align: center;
+  font-style: normal;
+}
+
+section#email, #email{
+  text-align: center;
+  color: #FFBD33;
+}
+
+.work {
+  color: #E4B7FF
+}
+
+.skills {
+  color: #88E8FA
+}
+
+section#links, #links{
   text-align: center;
 }
 
