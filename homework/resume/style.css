@@ -25,7 +25,7 @@ img {
   width: 200;
 }
 
-p.center{
+p.center #paragraph{
   font-size: 150%;
   color: #ccff00;
   text-align: center;
@@ -36,7 +36,7 @@ section#address, #address{
   font-style: normal;
 }
 
-section#email, #email{
+a#email, #email{
   text-align: center;
   color: #FFBD33;
 }
