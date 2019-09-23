@@ -1,8 +1,19 @@
-h1 {
+html,body {
+  background-color: gray;
+  color: white;
+}
+
+section#centered, #centered {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #f9423a;
+}
+
+h1{
   font-size: 40px;
   color: #d71868;
 }
-p {
+p{
   font-size: 150%;
   color: #ccff00;
 }
