@@ -149,3 +149,9 @@ img.grid6-picture {
 p.grid6-info {
   grid-area: grid6-info;
 }
+
+footer {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
