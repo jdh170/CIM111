@@ -13,7 +13,7 @@ nav {
   font-family: 'Poppins';
 }
 
-section.grid1 {
+#grid1 {
   display: grid;
   grid-template-areas:
     ". grid1-year ."
@@ -36,7 +36,7 @@ p.grid1-info {
   grid-area: grid1-info;
 }
 
-section.grid2 {
+#grid2 {
   display: grid;
   grid-template-areas:
     ". grid2-year ."
@@ -59,7 +59,7 @@ p.grid2-info {
   grid-area: grid2-info;
 }
 
-section.grid3 {
+#grid3 {
   display: grid;
   grid-template-areas:
     ". grid3-year ."
@@ -82,7 +82,7 @@ p.grid3-info {
   grid-area: grid3-info;
 }
 
-section.grid4 {
+#grid4 {
   display: grid;
   grid-template-areas:
     ". grid4-year ."
@@ -104,7 +104,7 @@ img.grid4-picture {
 p.grid4-info {
   grid-area: grid4-info;
 }
-section.grid5 {
+#grid5 {
   display: grid;
   grid-template-areas:
     ". grid5-year ."
@@ -127,7 +127,7 @@ p.grid5-info {
   grid-area: grid5-info;
 }
 
-section.grid6 {
+#grid6 {
   display: grid;
   grid-template-areas:
     ". grid5-year ."
