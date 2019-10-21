@@ -1,0 +1,31 @@
+html {
+  font-size: 21px;
+  line-height: 40px;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #FF1264;
+  margin: 0;
+  padding-top: 147px;
+}
+
+.my_box {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+main {
+  background-color: #FFC69A;
+  width: 100vw;
+  height: 50vh;
+  padding-top: 70px;
+}
+
+h1 {
+  background-color: #FF8925;
+  width: 20vw;
+  margin: auto;
+  border: 8px solid #8258FF;
+}
