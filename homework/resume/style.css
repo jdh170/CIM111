@@ -1,63 +1,71 @@
-html,body {
-  background-color: gray;
-  color: white;
-  font-family: 'Playfair Display', serif;
+html, body {
+	background-color: gray;
+	color: white;
+	font-family: 'Playfair Display', serif;
 }
 
 section#centered, #centered {
-  width: 600px;
-  margin: 0 auto;
-  border: 1px solid #f9423a;
+	width: 600px;
+	border: 1px solid #f9423a;
+	align-items: center;
 }
 
 h1 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 40px;
-  font-weight: 700;
-  color: #d71868;
-  text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: #d71868;
+	text-align: center;
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 200;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200;
 }
 
-p.center{
-  font-size: 150%;
-  color: #ccff00;
-  text-align: center;
+p.center {
+	font-size: 150%;
+	color: #ccff00;
+	text-align: center;
 }
 
-section#address, #address{
-  text-align: center;
-  font-style: normal;
+section#address, #address {
+	text-align: center;
+	font-style: normal;
 }
 
-a#email, #email{
-  text-align: center;
-  color: #FFBD33;
+a#email, #email {
+	text-align: center;
+	color: #FFBD33;
 }
 
 .work {
-  color: #E4B7FF
+	color: #E4B7FF
 }
 
 .skills {
-  color: #88E8FA
+	color: #88E8FA
 }
 
-section#links, #links{
-  text-align: center;
+section#music, #music {
+	text-align: center;
+}
+
+section#website, #website {
+	text-align: center;
+}
+
+section#links, #links {
+	text-align: center;
 }
 
 a:link {
-  color: #FFBD33;
-  text-decoration: none;
+	color: #FFBD33;
+	text-decoration: none;
 }
 
 a:hover {
-  color: hotpink;
+	color: hotpink;
 }
