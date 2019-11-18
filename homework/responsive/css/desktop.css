@@ -1,158 +1,160 @@
 body {
-  background-color: #9DD6F9;
-  text-align: center;
-  font-family: 'Poppins';
+	background-color: #9DD6F9;
+	text-align: center;
+	font-family: 'Poppins';
+	margin-left: 200px;
+	margin-right: 200px;
 }
 
 h1 {
-  font-size: 90px;
+	font-size: 90px;
 }
 
 nav {
-  text-align: center;
-  font-family: 'Poppins';
+	text-align: center;
+	font-family: 'Poppins';
 }
 
 #grid1 {
-  display: grid;
-  grid-template-areas:
-    "grid1-year . grid1-picture"
-    "grid1-info grid1-info grid1-info";
-  grid-gap: 1.4rem;
+	display: grid;
+	grid-template-areas:
+		"grid1-year . grid1-picture"
+		"grid1-info grid1-info grid1-info";
+	grid-gap: 1.4rem;
 }
 
 h2.grid1-year {
-  grid-area: grid1-year;
-  font-size: 100px;
-  margin-left: 60px;
+	grid-area: grid1-year;
+	font-size: 100px;
+	margin-left: 60px;
 }
 
 img.grid1-picture {
-  grid-area: grid1-picture;
-  margin-right: 60px;
+	grid-area: grid1-picture;
+	margin-right: 60px;
 }
 
 p.grid1-info {
-  grid-area: grid1-info;
+	grid-area: grid1-info;
 }
 
 #grid2 {
-  display: grid;
-  grid-template-areas:
-    "grid2-picture . grid2-year"
-    "grid2-info grid2-info grid2-info";
-  grid-gap: 1.4rem;
+	display: grid;
+	grid-template-areas:
+		"grid2-picture . grid2-year"
+		"grid2-info grid2-info grid2-info";
+	grid-gap: 1.4rem;
 }
 
 h2.grid2-year {
-  grid-area: grid2-year;
-  font-size: 100px;
-  margin-right: 60px;
+	grid-area: grid2-year;
+	font-size: 100px;
+	margin-right: 60px;
 }
 
 img.grid2-picture {
-  grid-area: grid2-picture;
-  margin-left: 60px;
+	grid-area: grid2-picture;
+	margin-left: 60px;
 }
 
 p.grid2-info {
-  grid-area: grid2-info;
+	grid-area: grid2-info;
 }
 
 #grid3 {
-  display: grid;
-  grid-template-areas:
-    "grid3-year . grid3-picture"
-    "grid3-info grid3-info grid3-info";
-  grid-gap: 1.4rem;
+	display: grid;
+	grid-template-areas:
+		"grid3-year . grid3-picture"
+		"grid3-info grid3-info grid3-info";
+	grid-gap: 1.4rem;
 }
 
 h2.grid3-year {
-  grid-area: grid3-year;
-  font-size: 100px;
-  margin-left: 60px;
+	grid-area: grid3-year;
+	font-size: 100px;
+	margin-left: 60px;
 }
 
 img.grid3-picture {
-  grid-area: grid3-picture;
-  margin-right: 60px;
+	grid-area: grid3-picture;
+	margin-right: 60px;
 }
 
 p.grid3-info {
-  grid-area: grid3-info;
+	grid-area: grid3-info;
 }
 
 #grid4 {
-  display: grid;
-  grid-template-areas:
-    "grid4-picture . grid4-year"
-    "grid4-info grid4-info grid4-info";
-  grid-gap: 1.4rem;
+	display: grid;
+	grid-template-areas:
+		"grid4-picture . grid4-year"
+		"grid4-info grid4-info grid4-info";
+	grid-gap: 1.4rem;
 }
 
 h2.grid4-year {
-  grid-area: grid4-year;
-  font-size: 100px;
-  margin-right: 60px;
+	grid-area: grid4-year;
+	font-size: 100px;
+	margin-right: 60px;
 }
 
 img.grid4-picture {
-  grid-area: grid4-picture;
-  margin-left: 60px;
+	grid-area: grid4-picture;
+	margin-left: 60px;
 }
 
 p.grid4-info {
-  grid-area: grid4-info;
+	grid-area: grid4-info;
 }
 
 #grid5 {
-  display: grid;
-  grid-template-areas:
-    "grid5-year . grid5-picture"
-    "grid5-info grid5-info grid5-info";
-  grid-gap: 1.4rem;
+	display: grid;
+	grid-template-areas:
+		"grid5-year . grid5-picture"
+		"grid5-info grid5-info grid5-info";
+	grid-gap: 1.4rem;
 }
 
 h2.grid5-year {
-  grid-area: grid5-year;
-  font-size: 100px;
-  margin-left: 60px;
+	grid-area: grid5-year;
+	font-size: 100px;
+	margin-left: 60px;
 }
 
 img.grid5-picture {
-  grid-area: grid5-picture;
-  margin-right: 60px;
+	grid-area: grid5-picture;
+	margin-right: 60px;
 }
 
 p.grid5-info {
-  grid-area: grid5-info;
+	grid-area: grid5-info;
 }
 
 #grid6 {
-  display: grid;
-  grid-template-areas:
-    "grid6-picture . grid6-year"
-    "grid6-info grid6-info grid6-info";
-  grid-gap: 1.4rem;
+	display: grid;
+	grid-template-areas:
+		"grid6-picture . grid6-year"
+		"grid6-info grid6-info grid6-info";
+	grid-gap: 1.4rem;
 }
 
 h2.grid6-year {
-  grid-area: grid6-year;
-  font-size: 100px;
-  margin-right: 60px;
+	grid-area: grid6-year;
+	font-size: 100px;
+	margin-right: 60px;
 }
 
 img.grid6-picture {
-  grid-area: grid6-picture;
-  margin-left: 60px;
+	grid-area: grid6-picture;
+	margin-left: 60px;
 }
 
 p.grid6-info {
-  grid-area: grid6-info;
+	grid-area: grid6-info;
 }
 
 footer {
-  font-weight: bold;
-  font-size: 50px;
-  text-align: center;
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
 }

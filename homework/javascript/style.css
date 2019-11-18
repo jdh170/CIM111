@@ -26,12 +26,18 @@ nav {
 	text-align: center;
 	background-color: #bd0000;
 	font-size: 40px;
+	color: white;
 }
 
 #panel {
 	padding: 30px;
 	display: none;
 	font-size: 25px;
+	color: white;
+}
+
+a.grid1 {
+	color: white;
 }
 
 #grid1 {
