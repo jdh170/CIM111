@@ -31,3 +31,6 @@ questionsClicked = 0;
 }
 });
 });
+var questionsClicked = 0;
+$(document).ready(function() {
+$("#london").html("<p>INTRO</p>");

@@ -15,6 +15,12 @@ nav {
 	font-family: 'Poppins';
 }
 
+@media only screen and (min-width: 768px) {
+	body {
+		background-color: green;
+	}
+}
+
 #grid1 {
 	display: grid;
 	grid-template-areas:
