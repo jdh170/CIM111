@@ -1,9 +1,15 @@
 body {
-	background-color: gray
+	background-color: gray;
+	font-family: 'Barlow';
 }
 
 #centered {
 	text-align: center;
+}
+
+h1 {
+	font-family: 'Lora';
+	font-size: 100px;
 }
 
 #bio {
@@ -16,6 +22,7 @@ body {
 
 h2.bio-title {
 	grid-area: bio-title;
+	font-family: 'Lora';
 	font-size: 100px;
 	margin-left: 60px;
 }
@@ -39,6 +46,7 @@ p.bio-info {
 
 h2.music-title {
 	grid-area: music-title;
+	font-family: 'Lora';
 	font-size: 100px;
 	margin-left: 60px;
 }
@@ -76,6 +84,7 @@ p.music-info {
 
 h2.gallery-title {
 	grid-area: gallery-title;
+	font-family: 'Lora';
 	font-size: 100px;
 	margin-left: 60px;
 }
