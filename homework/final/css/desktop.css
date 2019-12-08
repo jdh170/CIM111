@@ -1,0 +1,106 @@
+body {
+	background-color: gray
+}
+
+#centered {
+	text-align: center;
+}
+
+#bio {
+	display: grid;
+	grid-template-areas:
+		"bio-title bio-picture"
+		"bio-info .";
+	grid-gap: 1.4rem;
+}
+
+h2.bio-title {
+	grid-area: bio-title;
+	font-size: 100px;
+	margin-left: 60px;
+}
+
+img.bio-picture {
+	grid-area: bio-picture;
+	margin-right: 60px;
+}
+
+p.bio-info {
+	grid-area: bio-info;
+}
+
+#music {
+	display: grid;
+	grid-template-areas:
+		"music-title . . ."
+		"music-picture1 music-picture2 music-picture3 music-picture4"
+		"music-info music-info music-info music-info"
+}
+
+h2.music-title {
+	grid-area: music-title;
+	font-size: 100px;
+	margin-left: 60px;
+}
+
+img.music-picture1 {
+	grid-area: music-picture1;
+	margin-right: 60px;
+}
+
+img.music-picture2 {
+	grid-area: music-picture2;
+	margin-right: 60px;
+}
+
+img.music-picture3 {
+	grid-area: music-picture3;
+	margin-right: 60px;
+}
+
+img.music-picture4 {
+	grid-area: music-picture4;
+	margin-right: 60px;
+}
+
+p.music-info {
+	grid-area: music-info;
+}
+
+#gallery {
+	display: grid;
+	grid-template-areas:
+		"gallery-title . . ."
+		"gallery-picture1 gallery-picture2 gallery-picture3 gallery-picture4"
+}
+
+h2.gallery-title {
+	grid-area: gallery-title;
+	font-size: 100px;
+	margin-left: 60px;
+}
+
+img.gallery-picture1 {
+	grid-area: gallery-picture1;
+	margin-right: 60px;
+}
+
+img.gallery-picture2 {
+	grid-area: gallery-picture2;
+	margin-right: 60px;
+}
+
+img.gallery-picture3 {
+	grid-area: gallery-picture3;
+	margin-right: 60px;
+}
+
+img.gallery-picture4 {
+	grid-area: gallery-picture4;
+	margin-right: 60px;
+}
+
+h2.video-title {
+	font-size: 100px;
+	margin-left: 60px;
+}
