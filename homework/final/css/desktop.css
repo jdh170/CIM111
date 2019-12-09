@@ -1,5 +1,5 @@
 body {
-	background-color: gray;
+	background-color: #DAF7A6;
 	font-family: 'Barlow';
 }
 
@@ -8,7 +8,7 @@ body {
 }
 
 a:link, a:visited {
-	background-color: #f44336;
+	background-color: #FE90B6;
 	color: white;
 	padding: 14px 25px;
 	text-align: center;
@@ -17,92 +17,100 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-	background-color: red;
+	background-color: #D61458;
+}
 
-	h1 {
-		font-family: 'Lora';
-		font-size: 100px;
-	}
+h1 {
+	font-family: 'Lora';
+	font-size: 100px;
+	color: #14B5CF;
+}
 
-	#bio {
-		display: grid;
-		grid-template-areas:
-			"bio-title bio-picture"
-			"bio-info .";
-		grid-gap: 1rem;
-	}
+h2 {
+	font-family: 'Barlow';
+	font-size: 60px;
+	color: #14B5CF;
+}
 
-	h2.bio-title {
-		grid-area: bio-title;
-		font-family: 'Lora';
-		font-size: 100px;
-		margin-left: 60px;
-	}
+#bio {
+	display: grid;
+	grid-template-areas:
+		"bio-title bio-picture"
+		"bio-info .";
+	grid-gap: 1rem;
+}
 
-	img.bio-picture {
-		grid-area: bio-picture;
-		margin-right: 60px;
-	}
+h2.bio-title {
+	grid-area: bio-title;
+	font-family: 'Lora';
+	font-size: 100px;
+	margin-left: 60px;
+}
 
-	p.bio-info {
-		grid-area: bio-info;
-		margin-left: 60px;
-	}
+img.bio-picture {
+	grid-area: bio-picture;
+	margin-right: 60px;
+}
 
-	#music {
-		display: grid;
-		grid-template-areas:
-			"music-title ."
-			"music-picture1 music-picture2"
-			"music-picture3 music-picture4"
-	}
+p.bio-info {
+	grid-area: bio-info;
+	margin-left: 60px;
+}
 
-	h2.music-title {
-		grid-area: music-title;
-		font-family: 'Lora';
-		font-size: 100px;
-		margin-left: 60px;
-	}
+#music {
+	display: grid;
+	grid-template-areas:
+		"music-title ."
+		"music-picture1 music-picture2"
+		"music-picture3 music-picture4"
+}
 
-	img.music-picture1 {
-		grid-area: music-picture1;
-	}
+h2.music-title {
+	grid-area: music-title;
+	font-family: 'Lora';
+	font-size: 100px;
+	margin-left: 60px;
+}
 
-	img.music-picture2 {
-		grid-area: music-picture2;
-	}
+img.music-picture1 {
+	grid-area: music-picture1;
+}
 
-	img.music-picture3 {
-		grid-area: music-picture3;
-	}
+img.music-picture2 {
+	grid-area: music-picture2;
+}
 
-	img.music-picture4 {
-		grid-area: music-picture4;
-	}
+img.music-picture3 {
+	grid-area: music-picture3;
+}
 
-	h2.gallery {
-		font-size: 100px;
-		font-family: 'Lora';
-	}
+img.music-picture4 {
+	grid-area: music-picture4;
+}
 
-	div.gallery {
-		margin: 5px;
-		border: 1px solid #ccc;
-		float: center;
-		width: 180px;
-	}
+h2.gallery {
+	font-size: 100px;
+	font-family: 'Lora';
+}
 
-	div.gallery:hover {
-		border: 1px solid #777;
-	}
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: center;
+	width: 180px;
+}
 
-	div.gallery img {
-		width: 100%;
-		height: auto;
-	}
+div.gallery:hover {
+	border: 1px solid #777;
+}
 
-	h2.video {
-		font-size: 100px;
-		font-family: 'Lora';
-		margin-left: 60px;
-	}
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+h2.video {
+	font-size: 100px;
+	font-family: 'Lora';
+	margin-left: 60px;
+}
