@@ -7,94 +7,106 @@ body {
 	text-align: center;
 }
 
-h1 {
-	font-family: 'Lora';
-	font-size: 100px;
+a:link, a:visited {
+	background-color: #f44336;
+	color: white;
+	padding: 14px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 }
 
-#bio {
-	display: grid;
-	grid-template-areas:
-		"bio-title bio-picture"
-		"bio-info .";
-	grid-gap: 1rem;
-}
+a:hover, a:active {
+	background-color: red;
 
-h2.bio-title {
-	grid-area: bio-title;
-	font-family: 'Lora';
-	font-size: 100px;
-	margin-left: 60px;
-}
+	h1 {
+		font-family: 'Lora';
+		font-size: 100px;
+	}
 
-img.bio-picture {
-	grid-area: bio-picture;
-	margin-right: 60px;
-}
+	#bio {
+		display: grid;
+		grid-template-areas:
+			"bio-title bio-picture"
+			"bio-info .";
+		grid-gap: 1rem;
+	}
 
-p.bio-info {
-	grid-area: bio-info;
-	margin-left: 60px;
-}
+	h2.bio-title {
+		grid-area: bio-title;
+		font-family: 'Lora';
+		font-size: 100px;
+		margin-left: 60px;
+	}
 
-#music {
-	display: grid;
-	grid-template-areas:
-		"music-title . . ."
-		"music-picture1 music-picture2 music-picture3 music-picture4"
-		"music-info music-info music-info music-info"
-}
+	img.bio-picture {
+		grid-area: bio-picture;
+		margin-right: 60px;
+	}
 
-h2.music-title {
-	grid-area: music-title;
-	font-family: 'Lora';
-	font-size: 100px;
-	margin-left: 60px;
-}
+	p.bio-info {
+		grid-area: bio-info;
+		margin-left: 60px;
+	}
 
-img.music-picture1 {
-	grid-area: music-picture1;
-}
+	#music {
+		display: grid;
+		grid-template-areas:
+			"music-title . . ."
+			"music-picture1 music-picture2 music-picture3 music-picture4"
+			"music-info music-info music-info music-info"
+	}
 
-img.music-picture2 {
-	grid-area: music-picture2;
-}
+	h2.music-title {
+		grid-area: music-title;
+		font-family: 'Lora';
+		font-size: 100px;
+		margin-left: 60px;
+	}
 
-img.music-picture3 {
-	grid-area: music-picture3;
-}
+	img.music-picture1 {
+		grid-area: music-picture1;
+	}
 
-img.music-picture4 {
-	grid-area: music-picture4;
-}
+	img.music-picture2 {
+		grid-area: music-picture2;
+	}
 
-p.music-info {
-	grid-area: music-info;
-}
+	img.music-picture3 {
+		grid-area: music-picture3;
+	}
 
-h2.gallery {
-	font-size: 100px;
-	font-family: 'Lora';
-}
+	img.music-picture4 {
+		grid-area: music-picture4;
+	}
 
-div.gallery {
-	margin: 5px;
-	border: 1px solid #ccc;
-	float: left;
-	width: 180px;
-}
+	p.music-info {
+		grid-area: music-info;
+	}
 
-div.gallery:hover {
-	border: 1px solid #777;
-}
+	h2.gallery {
+		font-size: 100px;
+		font-family: 'Lora';
+	}
 
-div.gallery img {
-	width: 100%;
-	height: auto;
-}
+	div.gallery {
+		margin: 5px;
+		border: 1px solid #ccc;
+		float: center;
+		width: 180px;
+	}
 
-h2.video-title {
-	font-size: 100px;
-	font-family: 'Lora';
-	margin-left: 60px;
-}
+	div.gallery:hover {
+		border: 1px solid #777;
+	}
+
+	div.gallery img {
+		width: 100%;
+		height: auto;
+	}
+
+	h2.video-title {
+		font-size: 100px;
+		font-family: 'Lora';
+		margin-left: 60px;
+	}
