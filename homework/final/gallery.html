@@ -31,28 +31,29 @@
 	</header>
 	<main>
 		<h2 class="gallery">PRESS PHOTOS</h2>
-		<div class="gallery">
-			<a target="_blank" href="images/darksmile.jpg">
-				<img src="images/darksmile.jpg" alt="Jillian Dawn" width="600" height="400">
-			</a>
+		<div style="text-align:center">
+			<h2>Tabbed Image Gallery</h2>
+			<p>Click on the images below:</p>
+		</div>
+		<div class="row">
+			<div class="column">
+				<img src="images/darksmile.jpg" alt="Jillian Dawn" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="images/sitting.jpg" alt="Jillian Dawn" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="images/smiling.jpg" alt="Jillian Dawn" style="width:100%" onclick="myFunction(this);">
+			</div>
+			<div class="column">
+				<img src="images/smize.jpg" alt="Jillian Dawn" style="width:100%" onclick="myFunction(this);">
+			</div>
 		</div>
 
-		<div class="gallery">
-			<a target="_blank" href="images/sitting.jpg">
-				<img src="images/sitting.jpg" alt="Jillian Dawn" width="400" height="600">
-			</a>
-		</div>
-
-		<div class="gallery">
-			<a target="_blank" href="images/smiling.jpg">
-				<img src="images/smiling.jpg" alt="Jillian Dawn" width="600" height="400">
-			</a>
-		</div>
-
-		<div class="gallery">
-			<a target="_blank" href="images/smize.jpg">
-				<img src="images/smize.jpg" alt="Jillian Dawn" width="600" height="400">
-			</a>
+		<div class="container">
+			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+			<img id="expandedImg" style="width:100%">
+			<div id="imgtext"></div>
 		</div>
 	</main>
 </body>
