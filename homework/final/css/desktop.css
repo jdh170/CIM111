@@ -62,7 +62,8 @@ p.bio-info {
 	grid-template-areas:
 		"music-title ."
 		"music-picture1 music-picture2"
-		"music-picture3 music-picture4"
+		"music-picture3 music-picture4";
+	align: center;
 }
 
 h2.music-title {
