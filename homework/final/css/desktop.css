@@ -20,14 +20,14 @@ a:hover, a:active {
 	background-color: #D61458;
 }
 
-h1 {
-	font-family: 'Lora';
+h1.jillian {
+	font-family: 'Bebas Neue';
 	font-size: 100px;
 	color: #3C179B;
 }
 
 h2 {
-	font-family: 'Lora';
+	font-family: 'Bebas Neue';
 	font-size: 60px;
 	color: #3C179B;
 }
