@@ -55,19 +55,21 @@ h2.bio-title {
 	height: 100px;
 }
 
-img.bio-picture {
+a.bio-picture {
 	grid-area: bio-picture;
-	margin-right: 60px;
+	margin-right: auto;
 }
 
 .bio-info {
 	grid-area: bio-info;
 	margin-left: 60px;
+	font-family: 'barlow';
 }
 
 #music {
-	width: 80vw;
 	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1rem;
 	grid-template-areas:
 		"music-title ."
 		"music-picture1 music-picture2"
