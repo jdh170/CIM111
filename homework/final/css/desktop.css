@@ -52,9 +52,9 @@ a:hover, a:active {
 	#music {
 		display: grid;
 		grid-template-areas:
-			"music-title . . ."
-			"music-picture1 music-picture2 music-picture3 music-picture4"
-			"music-info music-info music-info music-info"
+			"music-title ."
+			"music-picture1 music-picture2"
+			"music-picture3 music-picture4"
 	}
 
 	h2.music-title {
@@ -78,10 +78,6 @@ a:hover, a:active {
 
 	img.music-picture4 {
 		grid-area: music-picture4;
-	}
-
-	p.music-info {
-		grid-area: music-info;
 	}
 
 	h2.gallery {
