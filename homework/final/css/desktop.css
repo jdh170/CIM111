@@ -3,6 +3,11 @@ body {
 	font-family: 'Barlow';
 }
 
+main {
+	width: 90vw;
+	margin: 0 auto;
+}
+
 #centered {
 	text-align: center;
 }
@@ -34,9 +39,11 @@ h2 {
 
 #bio {
 	display: grid;
-	grid-template-areas:
-		"bio-title bio-picture";
+	grid-template-columns: 1fr 1fr;
 	grid-gap: 1rem;
+	grid-template-areas:
+		"bio-title ."
+		"bio-info bio-picture";
 	padding: 75px;
 }
 
@@ -53,12 +60,13 @@ img.bio-picture {
 	margin-right: 60px;
 }
 
-p.bio-info {
+.bio-info {
 	grid-area: bio-info;
 	margin-left: 60px;
 }
 
 #music {
+	width: 80vw;
 	display: grid;
 	grid-template-areas:
 		"music-title ."
@@ -71,7 +79,7 @@ h2.music-title {
 	grid-area: music-title;
 	font-family: 'Lora';
 	font-size: 100px;
-	margin-left: 60px;
+	margin-left: 70px;
 }
 
 img.music-picture1 {
@@ -153,4 +161,16 @@ h2.video {
 	font-size: 100px;
 	font-family: 'Lora';
 	margin-left: 60px;
+}
+
+section.video-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-gap: 50px;
+}
+
+section.video-grid iframe {
+	width: 100%;
+	height: 400px;
 }
