@@ -17,7 +17,7 @@ h1 {
 	grid-template-areas:
 		"bio-title bio-picture"
 		"bio-info .";
-	grid-gap: 1.4rem;
+	grid-gap: 1rem;
 }
 
 h2.bio-title {
@@ -34,6 +34,7 @@ img.bio-picture {
 
 p.bio-info {
 	grid-area: bio-info;
+	margin-left: 60px;
 }
 
 #music {
@@ -53,63 +54,47 @@ h2.music-title {
 
 img.music-picture1 {
 	grid-area: music-picture1;
-	margin-right: 60px;
 }
 
 img.music-picture2 {
 	grid-area: music-picture2;
-	margin-right: 60px;
 }
 
 img.music-picture3 {
 	grid-area: music-picture3;
-	margin-right: 60px;
 }
 
 img.music-picture4 {
 	grid-area: music-picture4;
-	margin-right: 60px;
 }
 
 p.music-info {
 	grid-area: music-info;
 }
 
-#gallery {
-	display: grid;
-	grid-template-areas:
-		"gallery-title . . ."
-		"gallery-picture1 gallery-picture2 gallery-picture3 gallery-picture4"
-}
-
-h2.gallery-title {
-	grid-area: gallery-title;
-	font-family: 'Lora';
+h2.gallery {
 	font-size: 100px;
-	margin-left: 60px;
+	font-family: 'Lora';
 }
 
-img.gallery-picture1 {
-	grid-area: gallery-picture1;
-	margin-right: 60px;
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
 }
 
-img.gallery-picture2 {
-	grid-area: gallery-picture2;
-	margin-right: 60px;
+div.gallery:hover {
+	border: 1px solid #777;
 }
 
-img.gallery-picture3 {
-	grid-area: gallery-picture3;
-	margin-right: 60px;
-}
-
-img.gallery-picture4 {
-	grid-area: gallery-picture4;
-	margin-right: 60px;
+div.gallery img {
+	width: 100%;
+	height: auto;
 }
 
 h2.video-title {
 	font-size: 100px;
+	font-family: 'Lora';
 	margin-left: 60px;
 }

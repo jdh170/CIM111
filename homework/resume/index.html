@@ -16,7 +16,8 @@
 		<section id="centered">
 			<h1>Jillian Hobaica</h1>
 			<img src="images2/resume_pic.jpg" alt="Jillian" width="200" height="200">
-			<p class="center">Hi!<br> My name is Jillian Dawn Hobaica and I am 20 years old. I am an aspiring singer-songwriter from the greater Boston area. I am currently studying music business, songwriting, and vocal performance at the Frost School of
+			<p class="center">Hi!<br> My name is Jillian Dawn Hobaica and I am 20 years old. I am an aspiring singer-songwriter from the greater Boston area. I am currently studying music business, songwriting, and vocal performance at the Frost
+				School of
 				Music. I have two younger twin sisters that are seniors in high school, as well as two dogs. </p>
 			<!-- <p>This is a short bio about Jillian</p> -->
 			<section id="address"><address>12 Patriots Way, Mansfield, MA 02048</address>
@@ -56,5 +57,51 @@
 		</section>
 	</main>
 </body>
+
+<div class="grid_container">
+	<section id="gallery">
+		<h2 class="gallery-title">PRESS PHOTOS</h2>
+		<img src="images/darksmile.jpg" alt="Jillian Dawn" class="gallery-picture1" style="width:600px;height:400px;">
+		<img src="images/sitting.jpg" alt="Jillian Dawn" class="gallery-picture2" style="width:400px;height:600px;">
+		<img src="images/smiling.jpg" alt="Jillian Dawn" class="gallery-picture3" style="width:400px;height:600px;">
+		<img src="images/smize.jpg" alt="Jillian Dawn" class="gallery-picture4" style="width:400px;height:600px;">
+	</section>
+
+	#gallery {
+	display: grid;
+	grid-template-areas:
+	"gallery-title . . ."
+	"gallery-picture1 gallery-picture2 gallery-picture3 gallery-picture4"
+	}
+
+	h2.gallery-title {
+	grid-area: gallery-title;
+	font-family: 'Lora';
+	font-size: 100px;
+	margin-left: 60px;
+	}
+
+	img.gallery-picture1 {
+	grid-area: gallery-picture1;
+	margin-right: 60px;
+	}
+
+	img.gallery-picture2 {
+	grid-area: gallery-picture2;
+	margin-right: 60px;
+	}
+
+	img.gallery-picture3 {
+	grid-area: gallery-picture3;
+	margin-right: 60px;
+	}
+
+	img.gallery-picture4 {
+	grid-area: gallery-picture4;
+	margin-right: 60px;
+	}
+
+
+
 
 </html>
