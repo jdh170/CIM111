@@ -1,5 +1,5 @@
 body {
-	background-color: #DAF7A6;
+	background-color: #A694D5;
 	font-family: 'Barlow';
 }
 
@@ -23,13 +23,13 @@ a:hover, a:active {
 h1 {
 	font-family: 'Lora';
 	font-size: 100px;
-	color: #14B5CF;
+	color: #3C179B;
 }
 
 h2 {
 	font-family: 'Barlow';
 	font-size: 60px;
-	color: #14B5CF;
+	color: #3C179B;
 }
 
 #bio {
@@ -38,6 +38,7 @@ h2 {
 		"bio-title bio-picture"
 		"bio-info .";
 	grid-gap: 1rem;
+	padding: 10px;
 }
 
 h2.bio-title {
@@ -63,7 +64,6 @@ p.bio-info {
 		"music-title ."
 		"music-picture1 music-picture2"
 		"music-picture3 music-picture4";
-	align: center;
 }
 
 h2.music-title {
