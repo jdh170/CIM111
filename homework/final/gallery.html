@@ -5,8 +5,10 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Jillian Hobaica">
 	<meta name="description" content="This website is a virtual portfolio for Jillian Dawn">
-	<title>Gallery - Jillian Dawn</title>
+	<meta name="viewport" content="width=device-width">
+	<title>Jillian Dawn</title>
 	<link rel="stylesheet" href="css/desktop.css">
+	<link rel="stylesheet" href="css/mobile.css">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap&subset=latin-ext" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap&subset=latin-ext" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Barlow:200,200i,300,300i,400,400i|Lora:400,700&display=swap" rel="stylesheet">
@@ -14,6 +16,9 @@
 	<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152986285-1"></script>
+
 </head>
 
 <body>
@@ -32,28 +37,21 @@
 	<main>
 		<h2 class="gallery">PRESS PHOTOS</h2>
 		<div style="text-align:center">
-			<h2>Tabbed Image Gallery</h2>
-			<p>Click on the images below:</p>
+			<h2>Recent Shoot</h2>
 		</div>
 		<div class="row">
 			<div class="column">
-				<img src="images/darksmile.jpg" alt="Jillian Dawn" style="width:100%" onclick="myFunction(this);">
+				<a data-fancybox="gallery" href="images/2020.jpg"><img src="images/2020.jpg" alt="Jillian Dawn"></a>
 			</div>
 			<div class="column">
-				<img src="images/sitting.jpg" alt="Jillian Dawn" style="width:100%" onclick="myFunction(this);">
+				<a data-fancybox="gallery" href="images/sitting.jpg"><img src="images/sitting.jpg" alt="Jillian Dawn"></a>
 			</div>
 			<div class="column">
-				<img src="images/smiling.jpg" alt="Jillian Dawn" style="width:100%" onclick="myFunction(this);">
+				<a data-fancybox="gallery" href="images/smiling.jpg"><img src="images/smiling.jpg" alt="Jillian Dawn"></a>
 			</div>
 			<div class="column">
-				<img src="images/smize.jpg" alt="Jillian Dawn" style="width:100%" onclick="myFunction(this);">
+				<img src="images/smize.jpg" alt="Jillian Dawn">
 			</div>
-		</div>
-
-		<div class="container">
-			<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-			<img id="expandedImg" style="width:100%">
-			<div id="imgtext"></div>
 		</div>
 	</main>
 </body>
