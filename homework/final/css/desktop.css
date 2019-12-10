@@ -173,3 +173,16 @@ section.video-grid iframe {
 	text-decoration: none;
 	background-color: transparent;
 }
+
+footer#social, #social {
+	margin: 0 auto;
+}
+
+section#website, #website {
+	text-align: center;
+	padding: 10px;
+}
+
+section#links, #links {
+	text-align: center;
+}
